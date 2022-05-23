@@ -1,7 +1,5 @@
 import streamlit as st
-import seaborn as sb
-import matplotlib as plt
-import pandas as pd
+
 from app_eda import run_eda
 from app_home import run_home
 from app_ml import run_ml
