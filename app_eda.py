@@ -64,7 +64,7 @@ def run_eda() :
     # 3. 화면에 보여줘라
     st.dataframe(result)
 
-
+    
     fig2 = plt.figure()
     sb.heatmap(data= df[selected_list].corr(), annot=True, fmt='.2f', vmax= 1, vmin=-1, cmap='coolwarm',linewidths=0.5)
     st.pyplot(fig2)
