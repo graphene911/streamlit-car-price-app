@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 def run_eda() :
     st.subheader('데이터 분석')
 
+    st.text('기본적인 데이터 분석입니다.')
     df = pd.read_csv('data/Car_Purchasing_Data.csv' ,encoding='ISO-8859-1' )
 
     # 라디오 버튼을 이용해서, 데이터 프레임과, 통계치를 선택해서 보여줄 수 있도록 만든다.
